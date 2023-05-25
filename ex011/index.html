@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="Imagem flexivel">
+    </picture>
+<h1>Reproduzindo Audio</h1>
+<p>Vamos aprender a reproduzir Audios em HTML5</p>
+<audio preload="metadata" controls loop>
+    <source src="midia/seila.mp3" type="audio/mpeg">
+</audio>
+    
+</body>
+</html>
