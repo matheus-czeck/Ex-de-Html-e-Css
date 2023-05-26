@@ -2,3 +2,5 @@
  Cuso de HTML e CSS
 
  Aprendendo a gerenciar o repositório.
+
+ <a href="https://github.com/matheus-czeck/Ex-de-Html-e-Css/exercicio002/index.html"> executar o exercicio 002 </a>
