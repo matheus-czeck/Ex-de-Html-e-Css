@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'titulo';
+    src: url(Fonte/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'conteudo';
+    src: url(Fonte/Sriracha-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body {
+    display: block;
+
+
+}
+header {
+    background-color: black;
+    padding: 40px;
+    
+
+}
+header > h1 {
+    font-family: 'titulo', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+header > p{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color: white;
+     font-size: 1em;
+}
+header >  p > a {
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+
+}
+main{
+    font-family: 'conteudo', Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 30px;
+    font-size: 25px;
+
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+#img1 {    
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    color: white;  
+    background-attachment: fixed;
+    
+
+}
+.img > p{   
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    
+}
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment:  fixed;
+    
+}
+
+footer {
+    background-color: black;
+    
+}
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align:center;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white ;
+    font-style: bold;
+    
+}
