@@ -7,8 +7,8 @@
     font-family: 'conteudo';
     src: url(Fonte/Sriracha-Regular.ttf);
 }
-*{
-    margin: 0px;
+* {
+    margin: -10px;
     padding: 0px;
     font-size: 1em;
 }
@@ -20,7 +20,7 @@ body {
 }
 header {
     background-color: black;
-    padding: 40px;
+    padding-top: 40px;
     
 
 }
@@ -43,6 +43,11 @@ header >  p > a {
     color: white;
     text-decoration: none;
     font-style: bold;
+    
+
+}
+header > p > a > strong {
+    padding-left: 25px;
 
 }
 a:hover{
@@ -53,7 +58,8 @@ main{
     font-family: 'conteudo', Arial, Helvetica, sans-serif;
     text-align: left;
     margin: 30px;
-    font-size: 25px;
+    font-size: 16px;
+    
 
 }
 section {
@@ -61,9 +67,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.5vw;
+    font-size: 3.0vw;
+}
+section > p {
+        padding-bottom: 2em;
 }
 #img1 {    
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.808);
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     color: white;  
@@ -74,11 +84,12 @@ section {
 .img > p{   
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 1px 1px 0px black;
     
 }
 #img2 {
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.61);
     background-image: url(imagens/background002.jpg);
     background-attachment:  fixed;
     color: white;
@@ -94,10 +105,15 @@ footer > p {
     color: white;
     text-align:center;
     padding: 15px;
+    
+    
 }
 footer > p > a{
     text-decoration: none;
     color: white ;
     font-style: bold;
+    padding-left: 40px;
+    
+
     
 }
