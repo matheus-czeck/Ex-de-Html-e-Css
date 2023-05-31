@@ -8,13 +8,14 @@
     src: url(Fonte/Sriracha-Regular.ttf);
 }
 * {
-    margin: -10px;
+    margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
 body {
     display: block;
     min-height: 100%;
+   
 
 
 }
@@ -47,7 +48,7 @@ header >  p > a {
 
 }
 header > p > a > strong {
-    padding-left: 25px;
+    
 
 }
 a:hover{
@@ -57,7 +58,7 @@ a:hover{
 main{
     font-family: 'conteudo', Arial, Helvetica, sans-serif;
     text-align: left;
-    margin: 30px;
+    
     font-size: 16px;
     
 
@@ -112,7 +113,7 @@ footer > p > a{
     text-decoration: none;
     color: white ;
     font-style: bold;
-    padding-left: 40px;
+    
     
 
     
