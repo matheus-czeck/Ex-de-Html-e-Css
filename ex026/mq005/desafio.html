@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+   <!-- <link rel="stylesheet" href="style.css"> -->
+   <link rel="stylesheet" href="mobile.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id ="burguer" class="material-symbols-outlined" onclick="clickMenu()"> Menu </i>
+
+        <menu id="nav">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+     </header>
+    <main>
+        <h2>Testando Media Queries</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores omnis porro unde officia vitae, consequuntur tenetur rerum rem dolorum, excepturi molestiae ab magni perspiciatis? Quos, nemo doloribus? Optio, placeat ad. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea doloribus similique possimus, neque deleniti ad delectus excepturi! Nihil, officiis facere adipisci magni accusamus architecto placeat ex ipsam, modi, non totam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero repudiandae neque accusantium exercitationem officiis perspiciatis eum, dolore reprehenderit eos iusto quod, sint quibusdam itaque dolor illum asperiores soluta. Illo, recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut porro reiciendis rem quisquam neque, atque obcaecati nemo quam veniam expedita maxime unde corrupti temporibus adipisci voluptates voluptate provident pariatur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dignissimos ipsa velit accusamus iste voluptatibus, ducimus deserunt, quibusdam soluta perspiciatis quam ipsam eaque inventore quaerat hic aperiam, ullam corrupti aliquid!</p>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            } else {
+                nav.style.display = 'block'
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>

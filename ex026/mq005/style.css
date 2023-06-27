@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@media screen and (min-width:962px) {
+    
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body, html {
+    background: rgba(211, 211, 211, 0.37);
+    text-justify: initial;
+}
+
+header {
+     background-color: grey;
+
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+
+}
+i#burguer {
+    background-color: rgb(44, 44, 44);
+    display: block;
+    color: white;
+    text-align: center;
+    pad: 10px;
+    cursor: pointer;
+
+}
+i#burger:hover {
+     background-color: white;
+     color: black;
+     
+}
+
+menu > ul > li > a {
+    text-decoration:  none;
+    color: white;
+    background-color: rgb(87, 87, 87);
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 3px;
+    width: 90px;
+    text-align: center;
+    padding:4px;
+}
+
+li {
+    display: inline-block;
+}
+
+main > p {
+    margin: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    
+}
+main h2 {
+    text-align: left;
+    padding: 5px;
+     
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    margin: auto;
+    width: 90vw;
+    margin-top: 10px;
+
+}
+
