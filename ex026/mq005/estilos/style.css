@@ -6,32 +6,42 @@
     margin: 0px;
 }
 body {
-     background-color: gray;
+     background-color: lightgray;
 }
 
 header {
     background-color: lightgray;
     text-align: center;
-    padding: ;
+
     
 }
-header > menu  {
-    padding-top: 20px;
-
-}
+    
 header > h1 {
     margin-bottom: 10px;
 }
-header > menu > ul > li {
+menu {
+    display: none;
+}
+ menu > ul > li {
     background-color: grey;
     list-style: none;
     width: 100vw;
-    border: 1px solid lightgray;
-    height: 25px;
+    border-top: 3px solid lightgray;
+    height: 30px;
+    padding-top: 10px;
+    
+    
+}
+ li:hover{
+    background-color: white;
+    color: black;
+
 }
  a {
     text-decoration: none;
-    color: white;
+    color: black;
+    text-align: center;
+
 }
 
 #burguer {
@@ -42,13 +52,13 @@ header > menu > ul > li {
 
 }
 #burguer:hover {
-    color: white;
+    background-color: white;
     cursor: pointer;
 }
 
  main {
     background-color: white;
-    width: 90vw;
+    width: 85vw;
     display: block;
     margin: auto;
     border-radius: 10px;

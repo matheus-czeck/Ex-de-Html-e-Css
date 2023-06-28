@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    main{
+        display: flex;
+        position:absolute;
+        background-color: white;
+        
+    }
+    
+}
