@@ -5,111 +5,31 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+body, html {
     background-color: rgba(172, 73, 253, 0.829);
+    height: 100vh;
+    width: 100vw;
 }
-img {
-    width: 300px;
-    align-items: center;
-    display: flex;
-    border-radius: 20px 20px 0px 0px;
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
 }
-main {
-    width: 300px;
-    background-color: white;
-    display: block;
-    max-width: 768px;
+
+section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
-    box-shadow: 2px 1px 10px black;
+    overflow: hidden;
 }
-
-main > h1 {
-    text-align: center;
-    padding: 20px;
-
-}
-main > p {
-    text-indent: 5px;
-    margin: 5px;
-    text-align: left;
-}
-
-main > form {
-    display: block;
-    margin-left: 13%  ;
-
-}
-#login {
-    margin-left: 10px;
-}
-h1 {
-    text-align: center;
-}
-p {
-     text-indent: 10px;
-     text-align: left;
-}
-form {
-    margin-left: 20px;
-}
-
-#iemail {
-    background-color: rgba(0, 255, 255, 0.349);
-    border-radius: 8px;
-    height: 30px;
-    border-color: rgba(0, 255, 255, 0.603);
-    
-    
-}
-#iemail:hover {
-    background-color: rgba(172, 73, 253, 0.075);
-}
-#icon {
-    margin-bottom: 5px;
-    background-color: rgba(172, 73, 253, 0.829);
-    border-radius: 8px;
-    position: relative;
-    margin-right: 0px ;
-    width: 231px;
-    height: 38px;
-}
-
-#ientrar {
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin-bottom: 10px;
-    background-color: white;
-    border-color: rgba(173, 216, 230, 0.712);
-    border-radius: 5px;
-    color:rgb(0, 107, 143);
-    margin-left: 25px;
-    
-}
-#iesqueci {
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    margin-bottom: 10px;
-    background-color: white;
-    border-color: rgba(173, 216, 230, 0.712);
-    border-radius: 5px;
-    color:rgb(0, 107, 143);
-    text-decoration: solid;
-    margin-left: 25px;
-}
-
-#ientrar:hover {
-    background-color:rgba(0, 107, 143, 0.336);
-}
-#iesqueci:hover {
-    background-color:rgba(0, 107, 143, 0.336) ;
+section > #img {
+    background: rgba(172, 73, 253, 0.829) url(../pexels-juanjo-menta-16585271\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
 }

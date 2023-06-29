@@ -11,7 +11,7 @@
        display: flex;
        background-color: white;
        width: 90vw;
-       height: 300px;
+       height: 40vh;
 }
 #login {
     margin-left: 10px;
@@ -29,15 +29,21 @@ h1 {
 p {
     text-indent: 10px;
 }
-form  {
+form, input {
     margin-left: 70px;
+    width: 21vw;
 }
 #icon {
-    margin-right: 0px ;
-    width: 231px;
+    width: 30vw;
+    max-width: 30vw;
+
     height: 38px;
     
 }
+#iemail {
+    margin-left: 0px;
+}
+
 
 
 
