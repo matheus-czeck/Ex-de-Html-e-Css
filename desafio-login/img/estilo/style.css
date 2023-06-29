@@ -43,6 +43,19 @@ main > form {
     margin-left: 13%  ;
 
 }
+#login {
+    margin-left: 10px;
+}
+h1 {
+    text-align: center;
+}
+p {
+     text-indent: 10px;
+     text-align: left;
+}
+form {
+    margin-left: 20px;
+}
 
 #iemail {
     background-color: rgba(0, 255, 255, 0.349);
@@ -56,12 +69,13 @@ main > form {
     background-color: rgba(172, 73, 253, 0.075);
 }
 #icon {
-    width: 220px ;
-    height: 45px ;
     margin-bottom: 5px;
     background-color: rgba(172, 73, 253, 0.829);
     border-radius: 8px;
     position: relative;
+    margin-right: 0px ;
+    width: 231px;
+    height: 38px;
 }
 
 #ientrar {

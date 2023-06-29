@@ -1,12 +1,44 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-
-    main{
-        display: flex;
-        position:absolute;
-        background-color: white;
-        
+    body, html {
+        background-image: linear-gradient(to bottom,rgba(0, 255, 255, 0.589), rgba(128, 0, 128, 0.562));
+        width: 100vw;
+        height: 100vh;
     }
+
+    main {
+       display: flex;
+       background-color: white;
+       width: 90vw;
+       height: 300px;
+}
+#login {
+    margin-left: 10px;
+     
+
+}
+img{
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+}
+h1 {
+    text-align: center;
+
+}
+p {
+    text-indent: 10px;
+}
+form  {
+    margin-left: 70px;
+}
+#icon {
+    margin-right: 0px ;
+    width: 231px;
+    height: 38px;
     
+}
+
+
+
 }
